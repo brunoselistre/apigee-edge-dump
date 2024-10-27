@@ -1,0 +1,31 @@
+{
+  "name": "apigee-config-export",
+  "version": "1.0.0",
+  "description": "A simple utility that exports the Apigee Edge environment configurations such as caches, key-value-maps etc into individual JSON files. This ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsudheesh/apigee-config-export.git"
+  },
+  "keywords": [
+    "Apigee",
+    "Apigee-Configurations",
+    "Apigee environment configuration export"
+  ],
+  "author": "Sudheesh Damodaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsudheesh/apigee-config-export/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.1"
+  },
+  "bin": {
+    "apigee-config-export": "./index.js"
+  }
+}
