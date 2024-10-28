@@ -1,10 +1,9 @@
-#!/usr/bin/env node
 const axios = require("axios").default;
 const commandLineArgs = require('command-line-args');
 const commandLineUsage = require('command-line-usage');
 
-const fileHandler = require('./resources/utils.js');
-const { getComponentAsJSON } = require('./resources/componentExport.js')
+const fileHandler = require('./src/utils.js');
+const { getComponentAsJSON } = require('./src/componentExport.js')
 
 const optionsDefinition = [
   { name: "config", alias: "c", type: String },
